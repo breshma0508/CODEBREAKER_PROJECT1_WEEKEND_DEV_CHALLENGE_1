@@ -75,7 +75,10 @@ def calculate_bulls_and_cows(secret_code, guess):
             secret_copy[secret_copy.index(guess_copy[i])] = None
 
     return bulls, cows
-📌 main.py
+
+ ---
+
+###  📌 main.py
 from game_logic import generate_secret_code, calculate_bulls_and_cows
 
 def get_valid_guess():
@@ -173,25 +176,4 @@ Ideal for learning Python basics
 
 Can be extended with UI or difficulty levels
 
-
 ---
-
-### ✅ Why This Works
-
-- 📄 Uses Markdown file format (`.md`) which GitHub supports natively :contentReference[oaicite:0]{index=0}
-- 🚀 Code blocks use triple backticks for syntax highlighting :contentReference[oaicite:1]{index=1}
-- 🧠 Provides clear explanations about game logic and project structure
-
----
-
-## 📌 How to Use
-
-1. Create a GitHub repository
-2. Add your Python files (`main.py`, `game_logic.py`)
-3. Create this `README.md`
-4. Push to GitHub — anyone can now view and understand your project
-
----
-
-Would you like a **GitHub Actions setup** to auto‑run your code or tests? I can generate that too! 🚀
-::contentReference[oaicite:2]{index=2}
